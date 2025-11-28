@@ -33,6 +33,11 @@
             align-items: center;
             /* колір фону (чорний або градієнт) */
             /* фонове зображення (якщо є) */
+
+             background-image: url('https://i.pinimg.com/736x/ab/39/48/ab3948fd6381d358d21b9b186cf3e566.jpg');
+    background-size: cover; /* Resizes the image to cover the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat;
         }
 
         .game-logo {
