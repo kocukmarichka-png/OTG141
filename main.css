@@ -1,3 +1,184 @@
 .main{
     background-color: red;
 }
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            /* колір фону сторінки (дуже темний/чорний) */
+            /* колір тексту (білий або світло-сірий) */
+        }
+
+        /* --- Top Navigation Bar --- */
+        .top-bar {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            /* колір фону (темно-сірий) */
+            /* нижня рамка (border-bottom) */
+        }
+
+        .nav-link {
+            text-decoration: none;
+            /* колір тексту (білий) */
+            /* розмір шрифту */
+        }
+
+        /* --- Game Banner (Logo Area) --- */
+        .game-banner {
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* колір фону (чорний або градієнт) */
+            /* фонове зображення (якщо є) */
+        }
+
+        .game-logo {
+            font-size: 60px;
+            font-weight: bold;
+            /* колір тексту (білий) */
+            /* відступ знизу */
+        }
+
+        /* --- Action Boxes (4 items) --- */
+        .actions-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            /* колір фону (напівпрозорий чорний) */
+        }
+
+        .action-box {
+            width: 200px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* колір фону (темний) */
+            /* рамка (border) */
+        }
+
+        /* --- Main Layout (Sidebar + Content) --- */
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto; /* центрування контейнера */
+            padding: 20px;
+            gap: 40px;
+            /* колір фону контейнера */
+        }
+
+        /* --- Left Sidebar --- */
+        .sidebar {
+            width: 300px;
+            /* колір фону (темний) */
+        }
+
+        .unit-logo {
+            width: 100%;
+            height: 300px;
+            /* колір фону (сірий placeholder) */
+            /* кругла або квадратна форма */
+        }
+
+        .join-btn {
+            width: 100%;
+            padding: 15px;
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            /* колір фону (зелений) */
+            /* колір тексту (білий) */
+        }
+
+        .info-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            /* колір тексту */
+        }
+
+        .info-table td {
+            padding: 10px;
+            /* рамка знизу (border-bottom) */
+            /* колір рамки (темно-сірий) */
+        }
+
+        .accordion-btn {
+            width: 100%;
+            padding: 15px;
+            text-align: left;
+            margin-top: 5px;
+            border: none;
+            cursor: pointer;
+            /* колір фону (чорний) */
+            /* колір тексту (білий) */
+        }
+
+        /* --- Right Main Content --- */
+        .content {
+            flex: 1; /* займає всю доступну ширину */
+            /* відступи */
+        }
+
+        .unit-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid gray;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            /* колір тексту */
+        }
+
+        .unit-description {
+            padding: 20px;
+            margin-bottom: 30px;
+            /* колір фону (напівпрозорий сірий) */
+            /* рамка зліва (кольорова лінія) */
+        }
+
+        /* Tabs (About, Members, Events) */
+        .tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 20px;
+        }
+
+        .tab-item {
+            padding: 10px 30px;
+            cursor: pointer;
+            /* колір фону (темний) */
+            /* колір тексту */
+        }
+
+        .tab-item.active {
+            /* колір фону активної вкладки (світліший або чорний) */
+            /* жирний шрифт */
+        }
+
+        .bio-text {
+            line-height: 1.6;
+            /* розмір шрифту */
+            /* колір тексту (світло-сірий) */
+        }
+
+        .green-text {
+            /* колір тексту (зелений) */
+        }
+
+        /* --- Footer --- */
+        .footer {
+            text-align: center;
+            padding: 40px;
+            margin-top: 50px;
+            border-top: 1px solid gray;
+            /* колір фону (чорний) */
+            /* колір тексту */
+        }
+   
