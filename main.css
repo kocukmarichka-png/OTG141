@@ -27,7 +27,7 @@
 
         /* --- Game Banner (Logo Area) --- */
         .game-banner {
-            height: 150px;
+            height: 50vh;
             display: flex;
             justify-content: center;
             align-items: center;
