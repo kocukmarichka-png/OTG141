@@ -126,8 +126,8 @@
             margin-top: 5px;
             border: none;
             cursor: pointer;
-            color:black
-            /* колір тексту (білий) */
+            color:black;
+            color:white
         }
 
         /* --- Right Main Content --- */
@@ -143,14 +143,14 @@
             border-bottom: 2px solid gray;
             padding-bottom: 10px;
             margin-bottom: 20px;
-            /* колір тексту */
+            color: white;
         }
 
         .unit-description {
             padding: 20px;
             margin-bottom: 30px;
-            /* колір фону (напівпрозорий сірий) */
-            /* рамка зліва (кольорова лінія) */
+            background-color: rgba(128, 128, 128, 0.5);
+            border-left: 4px solid olive;
         }
 
         /* Tabs (About, Members, Events) */
