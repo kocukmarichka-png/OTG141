@@ -4,8 +4,8 @@
         body {
             margin: 0;
             font-family: sans-serif;
-            /* колір фону сторінки (дуже темний/чорний) */
-            /* колір тексту (білий або світло-сірий) */
+            background: black;
+            color: white;
         }
 
         /* --- Top Navigation Bar --- */
@@ -15,14 +15,15 @@
             align-items: center;
             justify-content: center;
             gap: 30px;
-            /* колір фону (темно-сірий) */
-            /* нижня рамка (border-bottom) */
+            background: darkgray;
+            border-bottom: 2px solid;
+            color: lightgray;
         }
 
         .nav-link {
             text-decoration: none;
-            /* колір тексту (білий) */
-            /* розмір шрифту */
+            color: white;
+            margin-right: 20px
         }
 
         /* --- Game Banner (Logo Area) --- */
@@ -45,7 +46,7 @@
             font-weight: bold;
             padding: 0 20px;
             background-color: rgba(255, 255, 255, 0.5); /* напівпрозорий чорний фон */
-            /* колір тексту (білий) */
+            color: white
             /* відступ знизу */
         }
 
