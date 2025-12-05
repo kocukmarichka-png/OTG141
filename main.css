@@ -4,8 +4,8 @@
         body {
             margin: 0;
             font-family: sans-serif;
-            /* колір фону сторінки (дуже темний/чорний) */
-            /* колір тексту (білий або світло-сірий) */
+            background: black;
+            color: white;
         }
 
         /* --- Top Navigation Bar --- */
@@ -15,8 +15,8 @@
             align-items: center;
             justify-content: center;
             gap: 30px;
-            /* колір фону (темно-сірий) */
-            /* нижня рамка (border-bottom) */
+            background: darkgray;
+            border-bottom
         }
 
         .nav-link {
