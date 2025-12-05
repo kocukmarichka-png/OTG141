@@ -16,13 +16,14 @@
             justify-content: center;
             gap: 30px;
             background: darkgray;
-            border-bottom
+            border-bottom: 2px solid;
+            color: lightgray;
         }
 
         .nav-link {
             text-decoration: none;
-            /* колір тексту (білий) */
-            /* розмір шрифту */
+            color: white;
+            margin-right: 20px
         }
 
         /* --- Game Banner (Logo Area) --- */
@@ -45,7 +46,7 @@
             font-weight: bold;
             padding: 0 20px;
             background-color: rgba(255, 255, 255, 0.5); /* напівпрозорий чорний фон */
-            /* колір тексту (білий) */
+            color: white
             /* відступ знизу */
         }
 
