@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  /* колір фону сторінки (дуже темний/чорний) */
-  /* колір тексту (білий) */
+  background-color: black;
+  color: white;
 }
 
 .top-bar {
@@ -11,13 +11,13 @@ body {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  /* колір фону (темно-сірий) */
-  /* нижня рамка */
+  background-color: darkgrey;
+  border-bottom: 2px solid black;
 }
 
 .nav-link {
   text-decoration: none;
-  /* колір тексту */
+  color: black;
 }
 
 .tab-box {
