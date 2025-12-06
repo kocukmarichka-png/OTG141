@@ -163,23 +163,24 @@
         .tab-item {
             padding: 10px 30px;
             cursor: pointer;
-            /* колір фону (темний) */
-            /* колір тексту */
+            color:black;
+            color:white
         }
 
         .tab-item.active {
-            /* колір фону активної вкладки (світліший або чорний) */
-            /* жирний шрифт */
+             background-color: #000000; /* чорний */
+            color: white; /* щоб текст був видимий */
+            font-weight: bolder;
         }
 
         .bio-text {
             line-height: 1.6;
-            /* розмір шрифту */
-            /* колір тексту (світло-сірий) */
+            font-size: 16px;
+            color: lightgrey;
         }
 
         .green-text {
-            /* колір тексту (зелений) */
+            color:green
         }
 
         /* --- Footer --- */
@@ -188,8 +189,8 @@
             padding: 40px;
             margin-top: 50px;
             border-top: 1px solid gray;
-            /* колір фону (чорний) */
-            /* колір тексту */
+            background-color: black;
+            color:white
         }
    
         img{
