@@ -74,7 +74,7 @@
             margin: 0 auto; /* центрування контейнера */
             padding: 20px;
             gap: 40px;
-            background-color: lightgrey
+            background-color: darkgrey
         }
 
         /* --- Left Sidebar --- */
@@ -102,7 +102,7 @@
             border: none;
             cursor: pointer;
             background-color: green;
-            background-color: black
+            background-color: white
         }
 
         .info-table {
@@ -179,7 +179,7 @@
         .bio-text {
             line-height: 1.6;
             font-size: 16px;
-            color: lightgrey;
+            color: black;
         }
 
         .green-text {
