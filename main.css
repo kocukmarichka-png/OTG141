@@ -1,201 +1,201 @@
-.main{
-    background-color: red;
+.main {
+  background-color: red;
 }
-        body {
-            margin: 0;
-            font-family: sans-serif;
-            background: black;
-            color: white;
-        }
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+}
 
-        /* --- Top Navigation Bar --- */
-        .top-bar {
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 30px;
-            background: darkgray;
-            border-bottom: 2px solid;
-            color: lightgray;
-        }
+/* --- Top Navigation Bar --- */
+.top-bar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background: darkgray;
+  border-bottom: 2px solid;
+  color: lightgray;
+}
 
-        .nav-link {
-            text-decoration: none;
-            color: white;
-            margin-right: 20px
-        }
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
 
-        /* --- Game Banner (Logo Area) --- */
-        .game-banner {
-            height: 50vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: black;
+/* --- Game Banner (Logo Area) --- */
+.game-banner {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 
-             background-image: url('https://i.pinimg.com/1200x/c9/d2/32/c9d2326f62c1495ef4cae8d719ce14f3.jpg');
-    background-size: cover; /* Resizes the image to cover the entire container */
-    background-position: center; /* Centers the image within the container */
-    background-repeat: no-repeat;
-        }
+  background-image: url('https://i.pinimg.com/1200x/c9/d2/32/c9d2326f62c1495ef4cae8d719ce14f3.jpg');
+  background-size: cover; /* Resizes the image to cover the entire container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat;
+}
 
-        .game-logo {
-            font-size: 60px;
-            font-weight: bold;
-            padding: 0 20px;
-            background-color: rgba(255, 255, 255, 0.5); /* напівпрозорий чорний фон */
-            color: white;
-            margin-bottom: 15px;
-        }
+.game-logo {
+  font-size: 60px;
+  font-weight: bold;
+  padding: 0 20px;
+  background-color: rgba(255, 255, 255, 0.5); /* напівпрозорий чорний фон */
+  color: white;
+  margin-bottom: 15px;
+}
 
-        /* --- Action Boxes (4 items) --- */
-        .actions-row {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
-            background-color:rgba(255, 255, 255, 0.5); /* напівпрозорий чорний фон */
-        }
+/* --- Action Boxes (4 items) --- */
+.actions-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5); /* напівпрозорий чорний фон */
+}
 
-        .action-box {
-            width: 200px;
-            height: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: black;
-        }
+.action-box {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
 
-        /* --- Main Layout (Sidebar + Content) --- */
-        .container {
-            display: flex;
-            max-width: 1200px;
-            margin: 0 auto; /* центрування контейнера */
-            padding: 20px;
-            gap: 40px;
-            background-color: darkgrey
-        }
+/* --- Main Layout (Sidebar + Content) --- */
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto; /* центрування контейнера */
+  padding: 20px;
+  gap: 40px;
+  background-color: darkgrey;
+}
 
-        /* --- Left Sidebar --- */
-        .sidebar {
-            width: 300px;
-            background-color:black
-        }
+/* --- Left Sidebar --- */
+.sidebar {
+  width: 300px;
+  background-color: black;
+}
 
-        .unit-logo {
-            width: 100%;
-            height: 300px;
-            background-color: gray;
-             width: 100px;
-    height: 100px;
-    background-color:olive;
-    border-radius: 50%;
-        }
+.unit-logo {
+  width: 100%;
+  height: 300px;
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+  background-color: olive;
+  border-radius: 50%;
+}
 
-        .join-btn {
-            width: 100%;
-            padding: 15px;
-            margin-top: 10px;
-            font-size: 18px;
-            font-weight: bold;
-            border: none;
-            cursor: pointer;
-            background-color: green;
-            background-color: white
-        }
+.join-btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: green;
+  background-color: white;
+}
 
-        .info-table {
-            width: 100%;
-            margin-top: 20px;
-            border-collapse: collapse;
-            color: black;
-        }
+.info-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  color: white;
+}
 
-        .info-table td {
-            padding: 10px;
-            border-bottom: 2px solid;
-            border-color: darkgray;
-        }
+.info-table td {
+  padding: 10px;
+  border-bottom: 2px solid;
+  border-color: darkgray;
+}
 
-        .accordion-btn {
-            width: 100%;
-            padding: 15px;
-            text-align: left;
-            margin-top: 5px;
-            border: none;
-            cursor: pointer;
-            color:black;
-            color:white
-        }
+.accordion-btn {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  color: white;
+}
 
-        /* --- Right Main Content --- */
-        .content {
-            flex: 1; /* займає всю доступну ширину */
-            margin: 20px;            /* відступ з усіх сторін */
-            margin-top: 10px;        /* зверху */
-            margin-bottom: 15px;     /* знизу */
-            margin-left: 5px;        /* зліва */
-            margin-right: 5px;       /* справа */
-        }
+/* --- Right Main Content --- */
+.content {
+  flex: 1; /* займає всю доступну ширину */
+  margin: 20px; /* відступ з усіх сторін */
+  margin-top: 10px; /* зверху */
+  margin-bottom: 15px; /* знизу */
+  margin-left: 5px; /* зліва */
+  margin-right: 5px; /* справа */
+}
 
-        .unit-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 2px solid gray;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            color: white;
-        }
+.unit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
 
-        .unit-description {
-            padding: 20px;
-            margin-bottom: 30px;
-            background-color: rgba(128, 128, 128, 0.5);
-            border-left: 4px solid olive;
-        }
+.unit-description {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-left: 4px solid olive;
+}
 
-        /* Tabs (About, Members, Events) */
-        .tabs {
-            display: flex;
-            gap: 5px;
-            margin-bottom: 20px;
-        }
+/* Tabs (About, Members, Events) */
+.tabs {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
 
-        .tab-item {
-            padding: 10px 30px;
-            cursor: pointer;
-            color:black;
-            color:white
-        }
+.tab-item {
+  padding: 10px 30px;
+  cursor: pointer;
+  color: black;
+  color: white;
+}
 
-        .tab-item.active {
-             background-color: #000000; /* чорний */
-            color: white; /* щоб текст був видимий */
-            font-weight: bolder;
-        }
+.tab-item.active {
+  background-color: #000000; /* чорний */
+  color: white; /* щоб текст був видимий */
+  font-weight: bolder;
+}
 
-        .bio-text {
-            line-height: 1.6;
-            font-size: 16px;
-            color: black;
-        }
+.bio-text {
+  line-height: 1.6;
+  font-size: 16px;
+  color: black;
+}
 
-        .green-text {
-            color:green
-        }
+.green-text {
+  color: green;
+}
 
-        /* --- Footer --- */
-        .footer {
-            text-align: center;
-            padding: 40px;
-            margin-top: 50px;
-            border-top: 1px solid gray;
-            background-color: black;
-            color:white
-        }
-   
-        img{
-max-width: 100%;
+/* --- Footer --- */
+.footer {
+  text-align: center;
+  padding: 40px;
+  margin-top: 50px;
+  border-top: 1px solid gray;
+  background-color: black;
+  color: white;
+}
+
+img {
+  max-width: 100%;
 }
