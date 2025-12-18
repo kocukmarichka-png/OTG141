@@ -10,7 +10,7 @@ body {
 
 /* --- Top Navigation Bar --- */
 .top-bar {
-  height: 50px;
+  min-height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,11 +179,27 @@ body {
 .bio-text {
   line-height: 1.6;
   font-size: 16px;
-  color: black;
+  color: black !important;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-item {
+  max-width: 800px;
+  margin: 0 auto;
+  img {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.unit-header {
+  justify-content: center;
 }
 
 .green-text {
-  color: green;
+  color: white;
 }
 
 /* --- Footer --- */
